@@ -48,6 +48,10 @@ font-style: normal;
 font-weight: bold;
 text-decoration: none;
 text-transform: none;
-background-color: #ffffff;
-
+color: #ffffff;
 }
+
+body{
+background-color: #0d1117;
+}
+

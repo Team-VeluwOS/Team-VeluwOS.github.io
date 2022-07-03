@@ -1,4 +1,4 @@
-div.background {
+body {
     background: linear-gradient(309deg, #ffb800, #de7dbd, #0066ff);
     background-size: 600% 600%;
     position: relative;

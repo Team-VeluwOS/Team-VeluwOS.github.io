@@ -8,21 +8,36 @@
 </head>
     
 <style>
-    div.main {
-        height: 100vh;
-        width: 120vw;
+    div.body {
         background: rgb(0,102,255);
         background: linear-gradient(150deg, rgba(0,102,255,1) 0%, rgba(222,125,189,1) 50%, rgba(255,184,0,1) 100%);
+        animation: gradient 15s ease infinite;
         background-size: cover;
         background-repeat: no-repeat, repeat;
-        padding-top: 20vh;
     }
+    div.main {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    } 
+    
     div.startbox{
         text-align: center;
     }
     div.startbox img{
-        height: 200px;
-        width:1000px;
+        height: 100px;
+        width: 555px;
         object-fit: cover;
     }
     div.container{

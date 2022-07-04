@@ -27,16 +27,7 @@ body {
         width: 555px;
         object-fit: cover;
     }
-    div.container{
+    div.container img{
         text-align: center;
+        object-fit: cover;
     }
-    div.container p {
-font-size: 48px;
-font-style: normal;
-font-weight: bold;
-text-decoration: none;
-text-transform: none;
-color: #ffffff;
-
-}
-

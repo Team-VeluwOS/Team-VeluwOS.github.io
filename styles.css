@@ -6,6 +6,7 @@ body {
     -moz-animation: Gradient 0s ease infinite;
     animation: Gradient 6s cubic-bezier(0.67, -0.01, 0.28, 1.04) infinite;
     /* background-size: cover; */
+    overflow: hidden;
 }
 @keyframes Gradient {
     0%{background-position:1% 0%}
@@ -32,7 +33,10 @@ body {
         object-fit: cover;
     }
 
-img {
+    div.container img {
     max-width: 30%;
     padding-top: 2vh;
-}
+    }
+    div.fourground {
+        height: ;
+    }

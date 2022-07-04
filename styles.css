@@ -31,3 +31,8 @@ body {
         text-align: center;
         object-fit: cover;
     }
+
+img {
+    max-width: 30%;
+    padding-top: 2vh;
+}

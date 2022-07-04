@@ -23,11 +23,11 @@ body {
         text-align: center;
     }
     div.startbox img{
-        height: 100px;
-        width: 555px;
-        object-fit: cover;
+        height: auto;
+        width: auto;
+        max-width: 50%;
     }
-    div.container img{
+    div.container{
         text-align: center;
         object-fit: cover;
     }

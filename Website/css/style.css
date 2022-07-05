@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background: linear-gradient(309deg, #ffb800, #de7dbd, #0066ff);
+    background-size: 200% 200%;
+    position: relative;
+    -webkit-animation: Gradient 0s ease infinite;
+    -moz-animation: Gradient 0s ease infinite;
+    animation: Gradient 6s cubic-bezier(0.67, -0.01, 0.28, 1.04) infinite;
+    overflow: hidden;
+}
+
+@keyframes Gradient {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+
+.main1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/hill.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    text-align: center;
+    
+}
+.textLogo img{
+    padding-top: 20vh;
+    width: 75%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: popout 1s ease;
+}
+@keyframes popout {
+    from{transform:scale(0.5)}
+    to{transform:scale(1)}
+}
+
+.textComingSoon img{
+    max-height: 50px;
+}
+#test1 {
+    padding-top: 2%;
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: popout 1s ease;
+}
+
+
+
